@@ -6,6 +6,19 @@
   height: 40vmin;
   pointer-events: none;
 }
+body {
+  border: 1px solid red;
+  min-height: 100vh;
+
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: space-between;*/
+}
+
+.layout {
+
+  min-height: 100vh;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

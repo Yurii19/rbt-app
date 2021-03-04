@@ -1,0 +1,99 @@
+.main_menu {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-size: contain;
+  background-color:  #869e19;
+  /* height: 100%; */
+  padding:  0 20px 0 20px;
+  /* box-shadow:  0 0 5px 0px white; */
+  background: linear-gradient(45deg, #45520D, #869e19);
+}
+.main_menu > ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+.main_menu > ul > li {
+  padding: 0 20px 0 20px;
+  list-style-type: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.4em;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  margin: 0;
+}
+
+.link:focus {
+  color: #C8CC7E;;
+}
+.link:hover {
+  color: #C8CC7E;
+  transition: .3s;
+}
+
+.btn {
+  /*border: 4px solid white;*/
+  opacity: 0.7;
+  transition: 0.4s;
+  border-radius: 13px;
+  padding: 5px 20px 5px 20px;
+  outline: none;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+.btn:hover {
+  transition: 0.4s;
+  opacity: 1;
+  /*padding: 3px 25px 3px 25px;*/
+  /*color: red;*/
+}
+.btn:active {
+  background-color: white;
+}
+.logo {
+  background-image: url('../images/bigun23.jpg');
+  display: inline-block;
+  background-size: cover;
+  min-width: 7vh;
+  min-height: 7vh;
+  border-radius: 50%;
+  box-shadow:  0 0 5px 0px #c1d663;
+  border: 2px solid white;
+}
+.login {
+  color: white;
+  width: 8%;
+  text-align: left;
+  font-weight: 600;
+  /*border: 1px solid red;*/
+}
+.login * {
+  color: white;
+}
+
+@media(max-width: 700px){
+  .main_menu {
+    display: flex;
+    /* flex-direction: column; */
+    /* padding:  0 20px 0 20px; */
+    justify-content: center;
+  }
+  .main_menu > ul {
+    width: 50%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+  .login {
+
+  }
+}

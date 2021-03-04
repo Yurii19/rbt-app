@@ -1,0 +1,29 @@
+.main {
+  /* border: 1px solid red; */
+}
+.controls > button {
+  border-style: none;
+  padding: 3px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 70px;
+  outline: none;
+
+}
+.controls > button:focus {
+  border: 2px solid red;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.list > span {
+  background-color: white;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 5px;
+}

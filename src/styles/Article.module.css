@@ -1,0 +1,22 @@
+.maincontent {
+
+}
+.article {
+    border-left: 4px solid black;
+    background-color: rgba(146, 250, 120, .1);
+    margin-bottom: 15px;
+    padding: 10px 0 10px 0;
+    /*border: 1px solid red;*/
+}
+
+.article > span {
+    padding-left: 20px;
+    display: block;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+}
+a:active {
+    color: #61dafb;
+}

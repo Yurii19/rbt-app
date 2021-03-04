@@ -1,0 +1,29 @@
+.mainSection {
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 90vh;
+  height: 100%;
+  /*border: 1px dotted black;*/
+  /* margin-top: 20px; */
+  /* padding-top: 20px; */
+  /* border-left: 3px solid #45520D; */
+  display: flex;
+}
+.main-section * {
+  /* color: white; */
+}
+.maincontent {
+  flex: 1;
+  padding-top: 20px;
+  /* border-right: 3px solid #45520D;
+  border-bottom: 3px solid #45520D; */
+  /* background-color: darkgray; */
+  /* box-shadow:  0 0 5px 0px red;  */
+}
+
+@media(max-width: 700px){
+  .main-section {
+    width: 100%;
+    margin-top: 0px;
+  }
+}

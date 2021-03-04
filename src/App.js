@@ -1,25 +1,19 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MyPage from './components/MyPage';
+import Layout from './Layout';
+import state from "./redux/state";
 
-function App() {
+// addExirsise({title: 'Нова вправа',text: 'Згинання розгинання рук в упорі'});
+
+function App(props) {
+   // console.log('app -> ' + state);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <Layout store={props.store}/>
+      </div>
   );
-}
+};
 
 export default App;
